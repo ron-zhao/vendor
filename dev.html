@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 50px;">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="MobileOptimized" content="320">
+    <meta http-equiv="Expires" content="-1">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Pragma" content="no-cache">
+    <!-- 默认webkit渲染 -->
+    <meta name="renderer" content="webkit">
+    <!-- 强制竖屏 -->
+    <!--<meta name="x5-orientation" content="portrait">-->
+    <!--<meta name="browsermode" content="application">-->
+    <!-- 关闭手机、email、地址链接样式 -->
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover">
+    <title>供应商系统</title>
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_709289_6gt33c4dr8.css" type="text/css" />
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?4008186ac93004b6584455c3abec1d42";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+
+<body>
+    <div id="app">
+        <router-view></router-view>
+    </div>
+
+    <!-- 开启 safe-area-inset-bottom 属性 -->
+    <van-number-keyboard safe-area-inset-bottom />
+</body>
+<script src="//res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+</html>

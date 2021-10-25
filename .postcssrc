@@ -1,0 +1,15 @@
+{
+  "plugins": {
+    "precss": {},
+    "autoprefixer": {
+      "browsers": [
+        "iOS >= 7",
+        "Android > 4"
+      ]
+    },
+    "postcss-pxtorem": {
+      "rootValue": 50,
+      "propList": ["*"]
+    }
+  }
+}

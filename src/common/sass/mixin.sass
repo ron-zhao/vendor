@@ -1,0 +1,9 @@
+@mixin BTN-BG-TEXT($arr)
+  @each $key, $value in $arr
+    // text
+    .text-#{$key}
+      color: $value
+    // bg, btn
+    .bg-#{$key}, .btn-#{$key}
+      color: #fff
+      background-color: $value

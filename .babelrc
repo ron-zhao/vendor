@@ -1,0 +1,30 @@
+{
+  "presets": [
+    "es2015",
+    "stage-2"
+  ],
+  "plugins": [
+    "transform-decorators-legacy",
+    "transform-vue-jsx",
+    "syntax-dynamic-import",
+    "transform-runtime",
+    [
+      "component",
+      [
+        {
+          "libraryName": "mint-ui",
+          "styleLibraryName": false
+        }
+      ]
+    ],
+    [
+      "import",
+      {
+        "libraryName": "vant",
+        "libraryDirectory": "es",
+        "style": true
+      }
+    ]
+  ],
+  "comments": true
+}

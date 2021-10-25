@@ -1,0 +1,26 @@
+{
+    "extends": [
+        "standard"
+    ],
+    "env": {
+        "browser": true
+    },
+    "plugins": [
+        "html"
+    ],
+    "parser": "babel-eslint",
+    "globals": {
+        "_": true,
+        "moment": true,
+        "Hammer": true,
+        "wx": true,
+        "WeixinJSBridge": true
+    },
+    "rules": {
+        "indent": [2, 4, { "SwitchCase": 1 }],
+        "semi": [2, "always"],
+        "no-var": 2,
+        "no-empty-pattern": 2,
+        "no-multiple-empty-lines": [2, { "max": 2, "maxEOF": 5, "maxBOF": 0 }]
+    }
+}
